@@ -11,7 +11,7 @@ poetry install
 poetry run python -m openf1_pipeline --year 2025
 ```
 
-O comando consulta os meetings do ano e baixa sessões não canceladas, pilotos e voltas. O CSV combinado fica em `data/processed/dashboard/lap_rankings.csv`; o manifesto `data/processed/dashboard/ingestion_manifest.json` registra cobertura completa ou falhas por sessão. Reexecutar o ano substitui os dados daquele ano e preserva outros anos já ingeridos.
+O comando consulta os meetings do ano e baixa sessões não canceladas e encerradas, pilotos e voltas. O plano gratuito permite até 3 requisições por segundo e 30 por minuto; o cliente espaça as chamadas e aguarda `Retry-After` (ou um minuto) antes de repetir uma resposta `429`. Se o limite continuar ativo após a tentativa, o ano é salvo como parcial e o pipeline para novas chamadas para evitar insistir contra a API. Reexecute o mesmo comando para retomar: meetings, sessões, pilotos e voltas já salvos em `data/raw/` são reutilizados; só requisições ausentes são refeitas. O CSV combinado fica em `data/processed/dashboard/lap_rankings.csv`; o manifesto `data/processed/dashboard/ingestion_manifest.json` registra cobertura completa ou falhas por sessão. Outros anos já ingeridos são preservados.
 
 ## Abrir o dashboard
 

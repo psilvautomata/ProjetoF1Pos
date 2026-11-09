@@ -24,6 +24,7 @@ def test_dashboard_explains_how_to_prepare_first_season(monkeypatch, tmp_path):
     app = AppTest.from_file(str(APP_PATH)).run()
 
     assert 2027 not in app.selectbox[0].options
+    assert any("lap_rankings.csv" in item.value for item in app.caption)
     assert any("--year 2024" in item.value for item in app.code)
 
 
@@ -52,11 +53,29 @@ def test_dashboard_displays_top_five_and_partial_coverage(monkeypatch, tmp_path)
         dashboard_dir / "lap_rankings.csv", index=False
     )
     (dashboard_dir / "ingestion_manifest.json").write_text(
-        json.dumps({"years": {"2024": {"status": "partial"}}}), encoding="utf-8"
+        json.dumps(
+            {
+                "years": {
+                    "2024": {
+                        "status": "partial",
+                        "failures": [
+                            {
+                                "endpoint": "laps",
+                                "session_key": 71,
+                                "status_code": 429,
+                                "error": "erro HTTP 429",
+                            }
+                        ],
+                    }
+                }
+            }
+        ),
+        encoding="utf-8",
     )
 
     app = AppTest.from_file(str(APP_PATH)).run()
 
     assert any("cobertura desta temporada está parcial" in item.value for item in app.warning)
+    assert any("consultas foram limitadas pela API (429)" in item.value for item in app.warning)
     assert any(item.value == "Monaco · 2024" for item in app.subheader)
     assert len(app.dataframe) == 1

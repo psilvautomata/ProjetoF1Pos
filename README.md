@@ -11,4 +11,4 @@ poetry run streamlit run src/openf1_pipeline/dashboard/app.py
 poetry run task docs
 ```
 
-O último comando inicia o servidor local da documentação. Abra <http://127.0.0.1:8000> no navegador; para encerrar o servidor, pressione `Ctrl+C` no terminal. Para apenas validar e gerar os arquivos estáticos, execute `poetry run task docs-build`.
+O último comando inicia o servidor local da documentação em <http://127.0.0.1:8001>; mantenha o terminal aberto e pressione `Ctrl+C` para encerrá-lo. Para apenas validar e gerar os arquivos estáticos, execute `poetry run task docs-build`.

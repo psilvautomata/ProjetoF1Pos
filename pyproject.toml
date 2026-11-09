@@ -27,7 +27,7 @@ testpaths = ["tests"]
 addopts = "--cov=openf1_pipeline --cov-report=term-missing --cov-fail-under=50"
 
 [tool.taskipy.tasks]
-docs = { cmd = "mkdocs serve --strict", help = "Inicia a documentação local em http://127.0.0.1:8000." }
+docs = { cmd = "mkdocs serve --strict --dev-addr 127.0.0.1:8001", help = "Inicia a documentação local em http://127.0.0.1:8001." }
 docs-build = { cmd = "mkdocs build --strict", help = "Valida a documentação e gera o site estático." }
 
 [tool.ruff]

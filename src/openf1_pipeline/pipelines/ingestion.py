@@ -11,7 +11,7 @@ import pandas as pd
 
 from openf1_pipeline.config import Settings, get_settings
 from openf1_pipeline.connectors import OpenF1Client
-from openf1_pipeline.connectors.openf1 import OpenF1Error
+from openf1_pipeline.connectors.openf1 import OpenF1Error, OpenF1HTTPError
 from openf1_pipeline.services import RANKING_COLUMNS, build_lap_dataset
 from openf1_pipeline.transformations import normalize_records, validate_records
 
@@ -92,7 +92,7 @@ class IngestionPipeline:
             raise ValueError(
                 "A API OpenF1 disponibiliza dados históricos gratuitos a partir de 2023"
             )
-        meetings = self._fetch("meetings", {"year": year}, _scope("year", year))
+        meetings = self._fetch_or_load("meetings", {"year": year}, _scope("year", year))
         sessions: list[dict[str, Any]] = []
         laps: list[dict[str, Any]] = []
         drivers: list[dict[str, Any]] = []
@@ -100,6 +100,7 @@ class IngestionPipeline:
         session_status: list[dict[str, Any]] = []
         cancelled_count = 0
         pending_count = 0
+        rate_limit_blocked = False
 
         for meeting in meetings:
             meeting_key = meeting.get("meeting_key")
@@ -109,13 +110,17 @@ class IngestionPipeline:
                 )
                 continue
             try:
-                meeting_sessions = self._fetch(
+                meeting_sessions = self._fetch_or_load(
                     "sessions", {"meeting_key": meeting_key}, _scope("meeting", meeting_key)
                 )
             except OpenF1Error as exc:
-                failures.append(
-                    {"meeting_key": meeting_key, "endpoint": "sessions", "error": str(exc)}
-                )
+                failure = {"meeting_key": meeting_key, "endpoint": "sessions", "error": str(exc)}
+                if isinstance(exc, OpenF1HTTPError):
+                    failure["status_code"] = exc.status_code
+                failures.append(failure)
+                if isinstance(exc, OpenF1HTTPError) and exc.status_code == 429:
+                    rate_limit_blocked = True
+                    break
                 continue
 
             for session in meeting_sessions:
@@ -151,21 +156,25 @@ class IngestionPipeline:
                 endpoint_status: dict[str, str] = {}
                 for endpoint in ("drivers", "laps"):
                     try:
-                        records = self._fetch(
+                        records = self._fetch_or_load(
                             endpoint,
                             {"session_key": session_key},
                             _scope("session", session_key),
                         )
                     except OpenF1Error as exc:
                         endpoint_status[endpoint] = "failed"
-                        failures.append(
-                            {
-                                "meeting_key": meeting_key,
-                                "session_key": session_key,
-                                "endpoint": endpoint,
-                                "error": str(exc),
-                            }
-                        )
+                        failure = {
+                            "meeting_key": meeting_key,
+                            "session_key": session_key,
+                            "endpoint": endpoint,
+                            "error": str(exc),
+                        }
+                        if isinstance(exc, OpenF1HTTPError):
+                            failure["status_code"] = exc.status_code
+                        failures.append(failure)
+                        if isinstance(exc, OpenF1HTTPError) and exc.status_code == 429:
+                            rate_limit_blocked = True
+                            break
                     else:
                         endpoint_status[endpoint] = "complete"
                         if endpoint == "drivers":
@@ -180,6 +189,10 @@ class IngestionPipeline:
                         "endpoints": endpoint_status,
                     }
                 )
+                if rate_limit_blocked:
+                    break
+            if rate_limit_blocked:
+                break
 
         lap_dataset = build_lap_dataset(laps, meetings, sessions, drivers)
         self._merge_year_dataset(year, lap_dataset)
@@ -208,7 +221,12 @@ class IngestionPipeline:
                 existing = existing.loc[pd.to_numeric(existing["year"], errors="coerce") != year]
         else:
             existing = pd.DataFrame(columns=RANKING_COLUMNS)
-        combined = pd.concat([existing, year_laps], ignore_index=True)
+        if existing.empty:
+            combined = year_laps.copy()
+        elif year_laps.empty:
+            combined = existing.copy()
+        else:
+            combined = pd.concat([existing, year_laps], ignore_index=True)
         if not combined.empty:
             combined = combined.sort_values(
                 by=[
@@ -249,6 +267,27 @@ class IngestionPipeline:
         validate_records(rows, required)
         self._save(endpoint, scope, rows)
         return rows
+
+    def _fetch_or_load(
+        self, endpoint: str, filters: dict[str, Any], scope: str
+    ) -> list[dict[str, Any]]:
+        """Reusa JSON válido já ingerido para permitir retomar uma temporada parcialmente."""
+        cached_path = self.settings.data_dir / "raw" / scope / f"{endpoint}.json"
+        if cached_path.exists():
+            try:
+                cached_rows = json.loads(cached_path.read_text(encoding="utf-8"))
+                if not isinstance(cached_rows, list) or any(
+                    not isinstance(row, dict) for row in cached_rows
+                ):
+                    raise ValueError("cache não contém uma lista de objetos")
+                required = () if endpoint in {"meetings", "sessions"} else ("session_key",)
+                validate_records(cached_rows, required)
+            except (OSError, json.JSONDecodeError, ValueError) as exc:
+                logger.warning("Cache inválido em %s; consultando a API: %s", cached_path, exc)
+            else:
+                logger.info("Reutilizando %s registros de %s", len(cached_rows), cached_path)
+                return cached_rows
+        return self._fetch(endpoint, filters, scope)
 
     def _save(self, endpoint: str, scope: str, rows: list[dict[str, Any]]) -> None:
         raw_dir = self.settings.data_dir / "raw" / scope

@@ -45,6 +45,25 @@ def test_get_raises_http_error(mock_get, settings):
         OpenF1Client(settings).get("laps")
 
 
+@patch("openf1_pipeline.connectors.openf1.MIN_REQUEST_INTERVAL", 0)
+@patch("openf1_pipeline.connectors.openf1.sleep")
+@patch("openf1_pipeline.connectors.openf1.requests.get")
+def test_get_retries_rate_limit_after_retry_after(mock_get, mock_sleep, settings):
+    limited_response = Mock()
+    limited_response.raise_for_status.side_effect = requests.HTTPError(
+        "429", response=Mock(status_code=429, headers={"Retry-After": "0.5"})
+    )
+    successful_response = Mock()
+    successful_response.json.return_value = []
+    mock_get.side_effect = [limited_response, successful_response]
+
+    result = OpenF1Client(settings).get("laps")
+
+    assert result == []
+    assert mock_get.call_count == 2
+    mock_sleep.assert_called_once_with(0.5)
+
+
 @patch("openf1_pipeline.connectors.openf1.requests.get")
 def test_get_rejects_invalid_json(mock_get, settings):
     response = Mock()

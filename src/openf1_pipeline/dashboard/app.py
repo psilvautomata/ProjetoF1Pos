@@ -115,6 +115,7 @@ def main() -> None:
                 f"A temporada {year} está disponível no histórico gratuito da API, "
                 "mas ainda não foi importada."
             )
+            st.caption(f"Arquivo local consultado: {csv_path.resolve()}")
             st.code(
                 f"poetry run python -m openf1_pipeline --year {year}",
                 language="powershell",
@@ -145,18 +146,42 @@ def main() -> None:
     else:
         st.success("Todos os meetings e sessões não cancelados desta temporada foram ingeridos.")
     with st.expander("Detalhes da cobertura"):
-        coverage_columns = st.columns(3)
+        coverage_columns = st.columns(4)
         coverage_columns[0].metric("Meetings", year_status.get("meeting_count", 0))
         coverage_columns[1].metric("Sessões", year_status.get("session_count", 0))
-        coverage_columns[2].metric(
+        partial_sessions = sum(
+            session.get("status") == "partial" for session in year_status.get("sessions", [])
+        )
+        coverage_columns[2].metric("Sessões parciais", partial_sessions)
+        coverage_columns[3].metric(
             "Sessões canceladas", year_status.get("cancelled_session_count", 0)
         )
         st.metric("Sessões futuras/ao vivo ignoradas", year_status.get("pending_session_count", 0))
-        for failure in year_status.get("failures", []):
-            st.error(
-                f"{failure.get('endpoint', 'API')} · sessão {failure.get('session_key', '—')}: "
-                f"{failure.get('error', 'falha sem detalhes')}"
+        failures = year_status.get("failures", [])
+        rate_limit_failures = [
+            failure
+            for failure in failures
+            if failure.get("status_code") == 429 or "429 Client Error" in failure.get("error", "")
+        ]
+        if rate_limit_failures:
+            st.warning(
+                f"{len(rate_limit_failures)} consultas foram limitadas pela API (429). "
+                "A ingestão espera e tenta novamente; "
+                "respostas já salvas serão reutilizadas. "
+                f"Para retomar, execute `poetry run python -m openf1_pipeline --year {year}`."
             )
+        for failure in failures:
+            endpoint = failure.get("endpoint", "API")
+            session_key = failure.get("session_key", "—")
+            if failure in rate_limit_failures:
+                st.caption(
+                    f"{endpoint} · sessão {session_key}: limite temporário de requisições (429)."
+                )
+            else:
+                st.error(
+                    f"{endpoint} · sessão {session_key}: "
+                    f"{failure.get('error', 'falha sem detalhes')}"
+                )
 
     top = top_five_laps(laps, year, circuit, selected_session)
     if top.empty:
