@@ -1,17 +1,41 @@
 [project]
-name = "f1"
+name = "openf1-pipeline"
 version = "0.1.0"
-description = ""
+description = "Pipeline modular de ingestão de dados históricos da API OpenF1"
 authors = [
     {name = "psilvautomata",email = "prnascimento.eng@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = [
-]
+requires-python = ">=3.12,<3.13"
+dependencies = ["pandas>=2.2,<3.0", "requests>=2.32,<3.0", "streamlit>=1.54,<2.0"]
 
 [tool.poetry]
-packages = [{include = "f1", from = "src"}]
+packages = [{include = "openf1_pipeline", from = "src"}]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3"
+pytest-cov = "^6.0"
+ruff = "^0.11"
+taskipy = "^1.14.1"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.6"
+mkdocs-material = "^9.6"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=openf1_pipeline --cov-report=term-missing --cov-fail-under=50"
+
+[tool.taskipy.tasks]
+docs = { cmd = "mkdocs serve --strict --dev-addr 127.0.0.1:8001", help = "Inicia a documentação local em http://127.0.0.1:8001." }
+docs-build = { cmd = "mkdocs build --strict", help = "Valida a documentação e gera o site estático." }
+
+[tool.ruff]
+line-length = 100
+src = ["src"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

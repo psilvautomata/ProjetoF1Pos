@@ -1,0 +1,17 @@
+site_name: OpenF1 Pipeline
+site_description: Pipeline modular para dados históricos de Fórmula 1
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+nav:
+  - Início: index.md
+  - Arquitetura: arquitetura.md
+  - Desenvolvimento: desenvolvimento.md
+  - Configuração: configuracao.md
+  - Dashboard: dashboard.md
+  - Pipelines:
+      - Ingestão por meeting: pipelines/ingestao.md
