@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: Quality checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: 2.4.2
+          virtualenvs-create: true
+          installer-parallel: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12.10"
+          cache: poetry
+          cache-dependency-path: poetry.lock
+
+      - name: Install project dependencies
+        run: poetry install --with docs --no-interaction --no-ansi
+
+      - name: Check lint
+        run: poetry run ruff check .
+
+      - name: Check formatting
+        run: poetry run ruff format . --check
+
+      - name: Run tests with minimum coverage
+        run: poetry run pytest --cov=openf1_pipeline --cov-report=term-missing --cov-fail-under=50
+
+      - name: Build documentation in strict mode
+        run: poetry run task docs-build
