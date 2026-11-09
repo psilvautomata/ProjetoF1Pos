@@ -1,0 +1,4410 @@
+{
+  "years": {
+    "2023": {
+      "cancelled_session_count": 5,
+      "failures": [],
+      "meeting_count": 24,
+      "pending_session_count": 0,
+      "session_count": 113,
+      "sessions": [
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9222,
+          "session_name": "Day 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7763,
+          "session_name": "Day 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7764,
+          "session_name": "Day 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7765,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7766,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7767,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7768,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7953,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7772,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7773,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7774,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7775,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7779,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7780,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7781,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7782,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7783,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 7787,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9063,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9064,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9278,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9069,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9070,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9071,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9072,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9073,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9074,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9078,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {},
+          "session_key": 9079,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 9080,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 9081,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 9082,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 9086,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9087,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9088,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9089,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9090,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9094,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9095,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9096,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9097,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9098,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9102,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9103,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9104,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9105,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9106,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9110,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9111,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9112,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9282,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9117,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9118,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9119,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9120,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9121,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9122,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9126,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9223,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9127,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9128,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9129,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9133,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9134,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9135,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9286,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9140,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9141,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9142,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9143,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9144,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9145,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9149,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9150,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9151,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9152,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9153,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9157,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9158,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9159,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9160,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9161,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9165,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9166,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9167,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9168,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9169,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9173,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9214,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9215,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9298,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9220,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9221,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9206,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9207,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9294,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9212,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9213,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9174,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9175,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9176,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9177,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9181,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9198,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9304,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9308,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9204,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9205,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9182,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9183,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9184,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9314,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9189,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9190,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9191,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9192,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9193,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9197,
+          "session_name": "Race",
+          "status": "complete"
+        }
+      ],
+      "status": "complete",
+      "valid_lap_count": 53802,
+      "year": 2023
+    },
+    "2024": {
+      "cancelled_session_count": 0,
+      "failures": [],
+      "meeting_count": 25,
+      "pending_session_count": 0,
+      "session_count": 123,
+      "sessions": [
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9462,
+          "session_name": "Day 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9463,
+          "session_name": "Day 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9464,
+          "session_name": "Day 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9465,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9466,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9467,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9468,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9472,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9473,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9474,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9475,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9476,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9480,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9481,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9482,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9483,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9484,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9488,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9489,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9490,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9491,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9492,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9496,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9663,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9668,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9672,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9664,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9673,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9497,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9502,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9506,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9498,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9507,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9508,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9509,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9510,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9511,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9515,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9516,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9517,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9518,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9519,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9523,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9524,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9525,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9526,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9527,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9531,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9532,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9533,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9534,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9535,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9539,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9540,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9545,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9549,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9541,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9550,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9551,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9552,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9553,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9554,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9558,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9559,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9560,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9561,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9562,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9566,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9567,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9568,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9569,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9570,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9574,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9575,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9576,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9577,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9578,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9582,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9583,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9584,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9585,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9586,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9590,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9591,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9592,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9593,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9594,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9598,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9599,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9600,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9601,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9602,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9606,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9607,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9612,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9616,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9608,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9617,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9618,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9619,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9620,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9621,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9625,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9626,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9631,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9635,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9627,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9636,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9637,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9638,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9639,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9640,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9644,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9645,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9650,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9654,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9646,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9655,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9461,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9656,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9657,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9658,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9662,
+          "session_name": "Race",
+          "status": "complete"
+        }
+      ],
+      "status": "complete",
+      "valid_lap_count": 57763,
+      "year": 2024
+    },
+    "2025": {
+      "cancelled_session_count": 0,
+      "failures": [
+        {
+          "endpoint": "laps",
+          "error": "Erro HTTP consultando /laps (status 404)",
+          "meeting_key": 1269,
+          "session_key": 9900,
+          "status_code": 404
+        }
+      ],
+      "meeting_count": 25,
+      "pending_session_count": 0,
+      "session_count": 123,
+      "sessions": [
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9683,
+          "session_name": "Day 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9684,
+          "session_name": "Day 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9685,
+          "session_name": "Day 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9686,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9687,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9688,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9689,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9693,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9988,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9989,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9993,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9994,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9998,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9999,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10000,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10001,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10002,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10006,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10007,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10008,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10009,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10010,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10014,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10015,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10016,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10017,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10018,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10022,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10023,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10024,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10028,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10029,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 10033,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9980,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9981,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9982,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9983,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9987,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9972,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9973,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9974,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9975,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9979,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9964,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9965,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9966,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9967,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9971,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9956,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9957,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9958,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9959,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9963,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9948,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9949,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9950,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9951,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9955,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9940,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9941,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9942,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9943,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9947,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9929,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9930,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9934,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9935,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9939,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9921,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9922,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9923,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9924,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9928,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9913,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9914,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9915,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9916,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9920,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9905,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9906,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9907,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9908,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9912,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9897,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9898,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9899,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "failed"
+          },
+          "session_key": 9900,
+          "session_name": "Qualifying",
+          "status": "partial"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9904,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9889,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9890,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9891,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9892,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9896,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9878,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9879,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9883,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9884,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9888,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9870,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9871,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9872,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9873,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9877,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9859,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9860,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9864,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9865,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9869,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9851,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9852,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9853,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9854,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9858,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9840,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9841,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9845,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9846,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9850,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9832,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9833,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9834,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9835,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 9839,
+          "session_name": "Race",
+          "status": "complete"
+        }
+      ],
+      "status": "partial",
+      "valid_lap_count": 58347,
+      "year": 2025
+    },
+    "2026": {
+      "cancelled_session_count": 10,
+      "failures": [],
+      "meeting_count": 27,
+      "pending_session_count": 15,
+      "session_count": 106,
+      "sessions": [
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11465,
+          "session_name": "Day 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11466,
+          "session_name": "Day 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11467,
+          "session_name": "Day 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11470,
+          "session_name": "Day 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11469,
+          "session_name": "Day 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11468,
+          "session_name": "Day 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11227,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11228,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11229,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11230,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11234,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11235,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11236,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11240,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11241,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11245,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11246,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11247,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11248,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11249,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11253,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11254,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11255,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11256,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11257,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11261,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11262,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11263,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11264,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11265,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11269,
+          "status": "cancelled"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11270,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11271,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11275,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11276,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11280,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11281,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11282,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11286,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11287,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11291,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11292,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11293,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11294,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11295,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11299,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11300,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11301,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11302,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11303,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11307,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11308,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11309,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11310,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11311,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11315,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11316,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11317,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11321,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11322,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11326,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11327,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11328,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11329,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11330,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11334,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11335,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11336,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11337,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11338,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11342,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11343,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11344,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11348,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11349,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11353,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11354,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11355,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11356,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11357,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11361,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11362,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11363,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11364,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11365,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11369,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11370,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11371,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11372,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11373,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11377,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11727,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11728,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11729,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11730,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11731,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11378,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11379,
+          "session_name": "Sprint Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11383,
+          "session_name": "Sprint",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11384,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11388,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11389,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11390,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11391,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11392,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11396,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11397,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11398,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11399,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11400,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11404,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11405,
+          "session_name": "Practice 1",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11406,
+          "session_name": "Practice 2",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11407,
+          "session_name": "Practice 3",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11408,
+          "session_name": "Qualifying",
+          "status": "complete"
+        },
+        {
+          "endpoints": {
+            "drivers": "complete",
+            "laps": "complete"
+          },
+          "session_key": 11412,
+          "session_name": "Race",
+          "status": "complete"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11413,
+          "session_name": "Practice 1",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11414,
+          "session_name": "Practice 2",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11415,
+          "session_name": "Practice 3",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11416,
+          "session_name": "Qualifying",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11420,
+          "session_name": "Race",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11421,
+          "session_name": "Practice 1",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11422,
+          "session_name": "Practice 2",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11423,
+          "session_name": "Practice 3",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11424,
+          "session_name": "Qualifying",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11428,
+          "session_name": "Race",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11429,
+          "session_name": "Practice 1",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11430,
+          "session_name": "Practice 2",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11431,
+          "session_name": "Practice 3",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11432,
+          "session_name": "Qualifying",
+          "status": "pending"
+        },
+        {
+          "endpoints": {},
+          "session_key": 11436,
+          "session_name": "Race",
+          "status": "pending"
+        }
+      ],
+      "status": "partial",
+      "valid_lap_count": 56821,
+      "year": 2026
+    }
+  }
+}

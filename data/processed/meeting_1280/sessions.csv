@@ -1,0 +1,6 @@
+session_key,session_type,session_name,date_start,date_end,meeting_key,circuit_key,circuit_short_name,country_key,country_code,country_name,location,gmt_offset,year,is_cancelled
+11235,Practice,Practice 1,2026-03-13T03:30:00+00:00,2026-03-13T04:30:00+00:00,1280,49,Shanghai,53,CHN,China,Shanghai,08:00:00,2026,False
+11236,Qualifying,Sprint Qualifying,2026-03-13T07:30:00+00:00,2026-03-13T08:14:00+00:00,1280,49,Shanghai,53,CHN,China,Shanghai,08:00:00,2026,False
+11240,Race,Sprint,2026-03-14T03:00:00+00:00,2026-03-14T04:00:00+00:00,1280,49,Shanghai,53,CHN,China,Shanghai,08:00:00,2026,False
+11241,Qualifying,Qualifying,2026-03-14T07:00:00+00:00,2026-03-14T08:00:00+00:00,1280,49,Shanghai,53,CHN,China,Shanghai,08:00:00,2026,False
+11245,Race,Race,2026-03-15T07:00:00+00:00,2026-03-15T09:00:00+00:00,1280,49,Shanghai,53,CHN,China,Shanghai,08:00:00,2026,False
